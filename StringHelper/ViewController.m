@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+verify.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSError *error;
+    NSString *ID = @"454879654215478964";
+    NSLog(@"retCode: %d, error:%@", [ID validateIdentityStrong:&error], error.localizedDescription);
 }
 
 

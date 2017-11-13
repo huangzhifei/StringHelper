@@ -15,6 +15,7 @@
 		9D8F42C21FB93B6B0001BAE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F42C11FB93B6B0001BAE9 /* main.m */; };
 		9D8F42CC1FB93B6B0001BAE9 /* StringHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F42CB1FB93B6B0001BAE9 /* StringHelperTests.m */; };
 		9D8F42D71FB93B6B0001BAE9 /* StringHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F42D61FB93B6B0001BAE9 /* StringHelperUITests.m */; };
+		9D8F42E71FB93C190001BAE9 /* NSString+verify.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F42E61FB93C190001BAE9 /* NSString+verify.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9D8F42D21FB93B6B0001BAE9 /* StringHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8F42D61FB93B6B0001BAE9 /* StringHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringHelperUITests.m; sourceTree = "<group>"; };
 		9D8F42D81FB93B6B0001BAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D8F42E51FB93C190001BAE9 /* NSString+verify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+verify.h"; sourceTree = "<group>"; };
+		9D8F42E61FB93C190001BAE9 /* NSString+verify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+verify.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 		9D8F42E41FB93BC50001BAE9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				9D8F42E51FB93C190001BAE9 /* NSString+verify.h */,
+				9D8F42E61FB93C190001BAE9 /* NSString+verify.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8F42E71FB93C190001BAE9 /* NSString+verify.m in Sources */,
 				9D8F42B71FB93B6B0001BAE9 /* ViewController.m in Sources */,
 				9D8F42C21FB93B6B0001BAE9 /* main.m in Sources */,
 				9D8F42B41FB93B6B0001BAE9 /* AppDelegate.m in Sources */,
